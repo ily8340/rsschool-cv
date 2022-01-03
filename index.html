@@ -1,9 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hello World</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My CV</title>
 </head>
 <body>
 
+
+ <header>
+     <nav class="header_nav">
+     <ul>
+         <li><a href="#foto_1">Foto</a></li>
+         <li><a href="#description_1">Description</a></li>
+         <li><a href="#contacts">Contacts</a></li>
+         <li><a href="#language_1">Language</a></li>
+         <li><a href="#skills_1">Skills</a></li>
+         <li><a href="#code_1">Code</a></li>
+     </ul>
+    </nav>
+ </header>
+
+
+
+ <main>
+
+ <section class="foto" id="foto_1">
+    <h1>Ilya Korshun</h1>
+     <div class="photo">
+         <img src="assets/img/mila&iliya_web-147.jpg" alt="My photo">
+     </div>
+ </section>
+
+ <section class="description" id="description_1">
+     <h2>DESCRIPTION</h2>
+     <p>
+        I'm currently studying at Rolling Scopes School. I hope my diligence  will help me to obtain useful knowledge.
+     </p>
+ </section>
+
+ <section class="telephone" id="contacts">
+     <nav class="telephone-nav">
+         <h2>CONTACTS</h2>
+         <ul>
+            <li><a href="https://github.com/ily8340" target="_blank">github</a></li>
+            <li><a href="https://vk.com/id74266223" target="_blank">vk.com</a></li>
+         </ul>
+    </nav>
+ </section>
+
+ <section class="language" id="language_1">
+     <div>
+        <h2>LANGUAGE</h2>
+         <p>English - A1</p>
+         <p>Russian - native speaker</p>
+     </div>
+ </section>
+
+
+ <section class="skills" id="skills_1">
+    <nav class="skills-nav">
+        <h2>MY SKILLS</h2>
+        <ul>
+           <li>HTML5</li>
+           <li>CSS3</li>
+           <li>Git</li>
+        </ul>
+   </nav>
+ </section>
+
+ <h2>EXAMPLE OF CODE</h2>
+ <section class="code" id="code_1"> <p class="code-text">
+    
+    <span> function</span><span> factorial</span><span> (n)</span>
+    <span> {</span><br> 
+    <span class="blue"> if</span><span> (</span><span> n</span><span> <</span><span class="red"> 0</span>
+    <span> )</span><span class="blue"> return</span><span class="green"> null</span><span>;</span><br>
+    <span class="blue"> if</span><span> (</span><span> n</span><span> ===</span><span class="red"> 0</span>
+    <span> )</span><span class="blue"> return</span><span> 1</span><span>;</span><br>
+    <span class="blue"> return</span><span> n</span><span> *</span><span> factorial</span><span> (</span>
+    <span> n</span><span> -</span><span class="red"> 1</span><span> )</span><span>;</span><br>
+    <span>}</span>
+
+
+</p>
+ </section>
+
+ </main>
+
+
+
+
+ <footer>
+    <footer class="footer">
+        <div class="footer_container">
+          <div class="footer-img"><a href="https://rs.school/js/" target="_blank"><img
+                src="assets/img/rsschool.png" alt=""></a></div>
+          <div class="footer-img"><a href="https://github.com/ily8340" target="_blank"><img
+                src="assets/img/github.png" alt=""></a></div>
+          <div class="footer-text">MINSK <br>
+            2022</div>
+        </div>
+      </footer>
+ </footer>   
 </body>
 </html>
