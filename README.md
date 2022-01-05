@@ -1,1 +1,1 @@
-https://ily8340.github.io/rsschool-cv/
+https://ily8340.github.io/rsschool-cv/cvgi
