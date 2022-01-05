@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+header {
+display: flex;
+min-height: 5vh;
+background-color: rgb(236, 111, 111);
+padding: 40px;
+justify-content: center;
+} 
+
+.header_nav ul{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  }
+
+.header_nav li{
+display: inline;
+list-style-type: none;
+}
+
+.header_nav a{
+ text-decoration: none;
+ color: black;
+ font-size: 50px;
+ font-weight: bold;
+  }
+
+  .foto {
+    padding: 20px;
+  }
+
+main {
+  min-height: 60vh;
+  background-color:rgb(240, 223, 149);
+  } 
+
+  
+  .photo {
+  display: flex;
+  justify-content: center;
+  }
+
+.photo img {
+  width: 300px;
+  border-radius: 300px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.description p{
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+
+text-align: center;
+}
+
+.telephone {
+  padding: 20px;
+  text-align: center;
+}
+
+.telephone-nav ul{
+display: flex;
+justify-content: center;
+gap: 40px;
+}
+
+.telephone-nav li{
+  display: inline;
+  list-style-type: none;
+  }
+  
+  .telephone-nav a{
+   text-decoration: none;
+   color: rgb(19, 14, 3);
+   font-size: 20px;
+   font-weight: bold;
+    }
+
+    .project {
+      padding: 20px;
+      text-align: center;  
+    }
+
+    .project-nav ul{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      }
+      
+      .project-nav li{
+        display: inline;
+        list-style-type: none;
+        }
+        
+        .project-nav a{
+         text-decoration: none;
+         color: rgb(19, 14, 3);
+         font-size: 20px;
+         font-weight: bold;
+          }
+
+    .language {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .language p{
+      color: rgb(19, 14, 3);
+   font-size: 20px;
+   font-weight: bold;
+    }
+    
+    .skills {
+padding: 20px;
+text-align: center;
+font-weight: bold;
+    }
+
+    .skills-nav ul{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      }
+
+      .telephone-nav li{
+        display: inline;
+        list-style-type: none;
+        }
+    .blue {
+  color: blue;
+    }
+
+  .red {
+color: rgb(231, 14, 14);
+    }
+
+  .green {
+color: rgb(14, 231, 32);
+    }
+
+  .code__container {
+    background-color: rgb(221, 201, 201);
+    padding: 20px;
+    min-height: 10vh;
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer {
+    min-height: 10vh;
+    background-color: #304040;
+  }
+  
+  .footer_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+  }
+  
+  .footer_container img {
+    height: 40px;
+  }
+  
+  .footer-text {
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #fff;
+  }
