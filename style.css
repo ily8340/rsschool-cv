@@ -101,6 +101,29 @@ gap: 40px;
    font-weight: bold;
     }
 
+    .project {
+      padding: 20px;
+      text-align: center;  
+    }
+
+    .project-nav ul{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      }
+      
+      .project-nav li{
+        display: inline;
+        list-style-type: none;
+        }
+        
+        .project-nav a{
+         text-decoration: none;
+         color: rgb(19, 14, 3);
+         font-size: 20px;
+         font-weight: bold;
+          }
+
     .language {
       padding: 20px;
       text-align: center;
